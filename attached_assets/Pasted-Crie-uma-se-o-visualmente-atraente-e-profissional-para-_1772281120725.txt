@@ -1,0 +1,36 @@
+Crie uma seção visualmente atraente e profissional para adicionar ao meu "Mapa Epstein" (um mapa interativo ou infográfico sobre as conexões de Jeffrey Epstein). A seção deve ser focada exclusivamente no BRASIL e nas conexões/apontamentos relacionados ao país.
+
+Estilo visual desejado:
+- Fundo escuro elegante (preto profundo ou cinza chumbo #1a1a1a) com detalhes em vermelho escuro (#8B0000) e dourado suave (#D4AF37) para dar um ar de mistério e seriedade investigativa
+- Título principal em fonte serifada sofisticada (como Playfair Display ou similar), tamanho grande, cor branca com leve sombra: "BRASIL NAS CONEXÕES EPSTEIN"
+- Subtítulo menor abaixo: "Registros, menções, tentativas de expansão da rede e pistas anônimas"
+- Use ícones minimalistas: bandeira do Brasil estilizada (pequena), avião discreto (Lolita Express), pasta de documentos, cadeado (anonimato)
+- Layout clean, com cards ou blocos flutuantes, espaçamento amplo, tipografia legível
+
+Conteúdo principal da seção (inclua como texto explicativo bonito e organizado em bullet points ou cards):
+
+Epstein demonstrou interesse no Brasil em várias frentes documentadas:
+• Planejou expandir sua rede de recrutamento/modelos para o Brasil (e-mails e contatos com agências como Ford Models Brasil ~2016)
+• Discussões sobre compra de agências de modelos brasileiras
+• Menções a contatos com empresários influentes (ex.: tentativas de aproximação com Eike Batista, Jorge Paulo Lemann, Armínio Fraga)
+• Emails envolvendo mulheres brasileiras (ex.: caso de Natal/RN com pedido de fotos, investigado pelo MPF brasileiro em 2026)
+• Nomes de brasileiros citados nos arquivos: Arthur Casas (arquiteto, possível projeto na ilha), Reinaldo Ávila da Silva (transferências financeiras), Luma de Oliveira, Luciana Gimenez, Mario Garnero Jr., Cecília Szalman
+• Referências políticas: menções indiretas a Lula e Bolsonaro em conversas/e-mails
+• "Grande grupo brasileiro" citado em depoimento FBI (possível rede maior ainda não totalmente revelada)
+• Parceiros como Jean-Luc Brunel buscaram modelos no Brasil
+
+Agora adicione uma parte INTERATIVA e ANÔNIMA para colaboração comunitária:
+
+**Quadro de Pistas Anônimas – Brasil**
+- Qualquer pessoa pode contribuir anonimamente com links ou informações relevantes sobre conexões Epstein x Brasil
+- Não é necessário identificar nome real
+- Sistema gera automaticamente um ID aleatório único (ex.: BR-EP-47K9X2 ou similar, formato curto e memorável)
+- Cada contribuição aparece como um "pin" ou card no mapa com:
+  • ID aleatório (exibido em destaque)
+  • Link enviado (clicável, com preview se possível)
+  • Data aproximada de envio
+  • Campo opcional: breve descrição (máx 100 caracteres)
+- Design do quadro: moldura vermelha escura sutil, fundo semi-transparente, botão grande e chamativo "ADICIONAR PISTA ANÔNIMA" em dourado
+- Após envio: mensagem de agradecimento elegante → "Sua pista foi registrada como [ID]. Obrigado por contribuir com a transparência."
+
+Torne tudo visualmente impactante, misterioso e confiável, sem sensacionalismo barato. Foque em investigação séria e anonimato seguro. Gere o texto/formatado pronto para copiar em ferramenta de design ou código HTML/CSS/JS se for interativo.

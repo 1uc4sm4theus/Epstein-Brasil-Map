@@ -1,0 +1,60 @@
+Requisitos:
+- Use vis-network CDN: <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+- Use Tailwind CDN: <script src="https://cdn.tailwindcss.com"></script>
+- Estrutura: 
+  - Fundo escuro moderno (dark mode), container central com título grande.
+  - Um div full-height/width para o grafo (id="mynetwork").
+  - Legenda ou sidebar simples à direita ou embaixo explicando cores/nós.
+  - Título: "Conexões de Jeffrey Epstein no Brasil (Baseado em documentos públicos)"
+  - Descrição curta abaixo do título.
+
+Dados do grafo (nodes e edges):
+Nodes (com id, label, color, shape='box' ou 'dot', size maior para centrais):
+- id:1, label:"Jeffrey Epstein", color:{background:"#dc2626", border:"#991b1b"}, shape:"ellipse", size:40
+- id:2, label:"Jean-Luc Brunel", color:{background:"#ea580c"}, shape:"box"
+- id:3, label:"Ghislaine Maxwell", color:{background:"#ec4899"}
+- id:4, label:"MC2 Model", color:{background:"#60a5fa"}
+- id:5, label:"São Paulo\n(Apartamento Vila Olímpia)", color:{background:"#86efac"}
+- id:6, label:"Rio de Janeiro\n(Carnaval)", color:{background:"#86efac"}
+- id:7, label:"Fortaleza (CE)", color:{background:"#86efac"}
+- id:8, label:"Canoa Quebrada (CE)", color:{background:"#86efac"}
+- id:9, label:"Natal (RN)", color:{background:"#86efac"}
+- id:10, label:"Vitória (ES)", color:{background:"#86efac"}
+- id:11, label:"Belo Horizonte (MG)", color:{background:"#86efac"}
+- id:12, label:"Brasília (DF)", color:{background:"#86efac"}
+- id:13, label:"Santa Catarina", color:{background:"#86efac"}
+- id:14, label:"Alexia", color:{background:"#fef08a"}, group:"natal"
+- id:15, label:"Jamile", color:{background:"#fef08a"}, group:"natal"
+- id:16, label:"Alana", color:{background:"#fef08a"}, group:"natal"
+
+Edges (from, to, label, arrows:"to", dashes se tracejado, color:{color:"#94a3b8"}):
+- from:1 to:2 label:"financiou / dirigiu"
+- from:1 to:3 label:"parceira principal"
+- from:1 to:4 label:"financiou agência"
+- from:4 to:2 label:"recrutador"
+- from:1 to:5 label:"apartamento 2003-2005"
+- from:1 to:6 label:"Carnaval ~2000s"
+- from:2 to:7 label:"viagens 2011-2013 + e-mails"
+- from:2 to:8 label:"fotos enviadas"
+- from:2 to:9 label:"contatos 2010-2011"
+- from:2 to:10 label:"busca de perfil"
+- from:2 to:11 label:"viagens / casting"
+- from:2 to:12 label:"agências"
+- from:2 to:13 label:"visitas associadas"
+- from:14 to:9 label:"intermediária"
+- from:14 to:15 label:"coordenou / fotos"
+- from:14 to:16 label:"irmã / familiar"
+- from:9 to:1 label:"e-mails / grooming alegado", dashes:true
+
+Opções do vis-network:
+- physics: {enabled:true, barnesHut:{gravitationalConstant:-8000, springLength:150}}
+- nodes: {font:{size:14, color:"#f3f4f6"}, borderWidth:2}
+- edges: {font:{size:12, align:"middle"}, arrows:{to:{enabled:true, scaleFactor:0.5}}, smooth:{type:"continuous"}}
+- layout: {hierarchical:{enabled:false}}  // ou true para hierárquico se quiser
+- interaction: {hover:true, navigationButtons:true, zoomView:true, dragView:true}
+
+JavaScript: Crie o grafo com const nodes = new vis.DataSet([...]); const edges = new vis.DataSet([...]); const data = {nodes, edges}; const options = {...}; const network = new vis.Network(container, data, options);
+
+Adicione tooltips ou eventos simples (ex: on hover mostrar mais info no label se possível).
+
+Faça responsivo, dark theme, bonito e legível. Inclua nota de rodapé: "Dados baseados em documentos judiciais e reportagens públicas (2026). Conexões indiretas via associados."

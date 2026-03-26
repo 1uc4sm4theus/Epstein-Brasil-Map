@@ -1,0 +1,95 @@
+{
+  "cidades": [
+    {
+      "nome": "Aracati (CE) / Canoa Quebrada",
+      "tipo": "Pequena / Praia turística",
+      "categorias": ["recrutamento", "scouting em praias"],
+      "detalhes": "Brunel enviou fotos de Canoa Quebrada para Epstein (e-mails 2011). Menções a praias isoladas para scouting.",
+      "ligacoes": ["Jean-Luc Brunel", "E-mails com fotos 'Aracati-20111121'", "Canoa Quebrada"],
+      "ano": "2010-2016",
+      "fonte": "DOJ Dataset, O POVO, arquivos de e-mail",
+      "coords": [-4.528, -37.734]
+    },
+    {
+      "nome": "Fortaleza (CE)",
+      "tipo": "Capital / Grande cidade",
+      "categorias": ["base de operações", "recrutamento"],
+      "detalhes": "Destino frequente de Brunel (chegadas noturnas, e-mails de 2013). Base para visitas a praias próximas (Morro Branco, Canoa).",
+      "ligacoes": ["Jean-Luc Brunel", "E-mails mencionando chegada a Fortaleza"],
+      "ano": "2010-2016",
+      "fonte": "Arquivos DOJ, reportagens sobre e-mails",
+      "coords": [-3.730, -38.527]
+    },
+    {
+      "nome": "Natal (RN)",
+      "tipo": "Capital / Cidade média",
+      "categorias": ["recrutamento", "intermediação"],
+      "detalhes": "E-mails de 2011 mencionam jovem pobre da periferia de Natal. Intermediária (Alexia) apresenta garota a Epstein, pedido de dinheiro para viagem.",
+      "ligacoes": ["Jeffrey Epstein direto", "MPF investigando conexão"],
+      "ano": "2011",
+      "fonte": "Arquivos DOJ, G1, BBC",
+      "coords": [-5.794, -35.211]
+    },
+    {
+      "nome": "São Paulo (SP)",
+      "tipo": "Metrópole",
+      "categorias": ["visitas", "contatos", "possível imóvel"],
+      "detalhes": "Epstein menciona viagens a SP (e-mails 2006-2008), pede 'amigas'. Compra de apartamento em bairro nobre (Vila Olímpia) em 2003.",
+      "ligacoes": ["Epstein direto", "modelos brasileiras"],
+      "ano": "2003-2008+",
+      "fonte": "E-mails DOJ, reportagens (InfoMoney, BBC)",
+      "coords": [-23.550, -46.633]
+    },
+    {
+      "nome": "Rio de Janeiro (RJ)",
+      "tipo": "Capital / Metrópole",
+      "categorias": ["recrutamento", "sex tourism histórico"],
+      "detalhes": "Visitas de Brunel. Citado em arquivos JPMorgan como exemplo de sex tourism. Contatos e scouting.",
+      "ligacoes": ["Jean-Luc Brunel", "arquivos JPMorgan"],
+      "ano": "2006-2019",
+      "fonte": "DOJ, The Guardian, reportagens",
+      "coords": [-22.906, -43.172]
+    },
+    {
+      "nome": "Belo Horizonte (MG)",
+      "tipo": "Capital",
+      "categorias": ["recrutamento"],
+      "detalhes": "Brunel passou pela cidade em expedições de scouting (2012-2016).",
+      "ligacoes": ["Jean-Luc Brunel"],
+      "ano": "2012-2016",
+      "fonte": "Reportagens (O Estado de S. Paulo, Agência Pública)",
+      "coords": [-19.916, -43.935]
+    },
+    {
+      "nome": "Porto Alegre (RS)",
+      "tipo": "Capital",
+      "categorias": ["recrutamento"],
+      "detalhes": "Menções a planos de recrutamento de adolescentes via e-mails/trocas.",
+      "ligacoes": ["Jean-Luc Brunel"],
+      "ano": "2012-2016",
+      "fonte": "Arquivos DOJ, GZH",
+      "coords": [-30.033, -51.230]
+    },
+    {
+      "nome": "Brasília (DF)",
+      "tipo": "Capital",
+      "categorias": ["recrutamento", "agências"],
+      "detalhes": "Brunel em castings/agências (ex: Mega Partners, 2019).",
+      "ligacoes": ["Jean-Luc Brunel", "Mega Model Brasília"],
+      "ano": "2019",
+      "fonte": "The Guardian, Agência Pública",
+      "coords": [-15.793, -47.882]
+    },
+    {
+      "nome": "Santa Catarina (ex: Balneário Camboriú / Riviera)",
+      "tipo": "Área turística de luxo",
+      "categorias": ["presença / fuga"],
+      "detalhes": "Celular de Brunel rastreado no Infinity Blue Resort & Spa. Maxwell também na região (2019).",
+      "ligacoes": ["Jean-Luc Brunel", "Ghislaine Maxwell"],
+      "ano": "2019",
+      "fonte": "Sky News, ex-policial americano",
+      "coords": [-27.000, -48.500]
+    }
+  ],
+  "observacoes_gerais": "A maioria das conexões no Brasil envolve Jean-Luc Brunel (scouting/agências de modelos) entre ~2006-2019. Cidades do Nordeste (praias) e capitais grandes aparecem mais. Fontes principais: arquivos DOJ 2025/2026, e-mails, reportagens (BBC, G1, Estadão, Agência Pública)."
+}
